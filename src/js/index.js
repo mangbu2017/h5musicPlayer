@@ -67,6 +67,7 @@ function successFn(data){
 
 getData('/mock/data.json');
 
+// 进度条拖动事件
 function bindTouch(){
     var $slidePoint = $scope.find('.slide-point');
     var offset = $scope.find('.pro-wrapper').offset();
